@@ -1,0 +1,177 @@
+/*------------------------------------------------------------------------
+# "Sparky Framework" - Joomla Template Framework
+# Copyright (C) 2012 ArhiNet d.o.o. All Rights Reserved.
+# License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+# Author: HotJoomlaTemplates.com
+# Website: http://www.hotjoomlatemplates.com
+-------------------------------------------------------------------------*/
+
+/******* CUSTOM ROWS AND CELLS STYLING *******/
+
+.sparky_full {
+}
+
+.sparky_main {
+	margin:0 auto;
+	padding:0;
+}
+
+.row {
+	padding:0;
+	margin:0;
+}
+
+.row > * {
+	float:left;
+}
+
+/* abovecontent and belowcontent modules */
+
+div.abovecontent {
+}
+
+div.belowcontent {
+	padding: 30px 0 0 0;
+}
+
+/* HOT CINEMA LAYOUT */
+
+.content_sparky {
+	padding-bottom: 30px;
+	min-height: 500px;
+}
+
+/* header menus */
+
+div.header_menu {
+	height:35px;
+}
+
+ul.mnu_headermenu li a {
+	padding-left:0;
+	padding-right: 30px;
+}
+
+ul.mnu_headermenu li a, ul.mnu_headermenu2 li a {
+	font-size: 11px;
+	text-transform: uppercase;
+	line-height: 35px;
+}
+
+.mp_top2 {
+	text-align: right;
+}
+
+ul.mnu_headermenu2 {
+	width: 395px;
+	text-align: right;
+	background:none;
+}
+
+ul.mnu_headermenu2 li {
+	border-top:none;
+	border-bottom:none;
+	display: inline-block;
+	float: right;
+}
+
+/* logo and top menu area */
+
+div.logo_area {
+	height:120px;
+}
+
+div.mp_logo {
+	padding-top: 15px;
+}
+
+.sparky_logo, .sparky_logo a {
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 34px;
+}
+
+.sparky_slogan {
+}
+
+div.mp_topmenu {
+	padding-top:60px;
+}
+
+ul.mnu_topmenu li a, ul.mnu_topmenu li span {
+}
+
+/* full carousel */
+
+div.full_carousel div.sparky_main, div.full_carousel div.row, .mp_advert1 {
+	width: 100%;
+}
+
+.mp_advert1 .cell_pad {
+	padding-top: 20px;
+}
+
+/* user1-6 */
+
+div.user_row {
+	padding-bottom: 30px;
+}
+
+.mp_user1 h2, .mp_user4 h2, .mp_bottom2 h2 {
+	padding:15px;
+	margin:0;
+	font-weight: 800;
+	line-height: 30px;
+}
+
+.mp_bottom2 h2 {
+	padding:0;
+	margin:0;
+	font-weight: 800;
+	line-height: 22px;
+	color:#333;
+	font-size: 24px;
+}
+
+div.user_row div.moduletable {
+	min-height: 300px;
+}
+
+/* bottom carousel */
+
+div.bottom_carousel div.sparky_main, div.bottom_carousel div.row, .mp_bottom1 {
+	width: 100%;
+}
+
+div.bottom_carousel {
+	background:#222;
+	padding: 15px 0;
+}
+
+div.bottom_carousel h3 {
+	padding:0 0 15px 0;
+	margin:0;
+	font-weight: 800;
+	line-height: 30px;
+	color:#fff;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+/* bottom menus */
+
+div.bottom_menus {
+	padding:30px 0;
+}
+
+/* footer row */
+
+div.footer_row {
+	padding: 15px 0;
+}
+
+div.mp_copyright {
+	text-align: right;
+	font-size: 11px;
+	color:#999;
+}

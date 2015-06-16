@@ -1,0 +1,25 @@
+.box {
+	padding: 10px;
+}
+
+.container {
+	padding: 0 0 20px 0;
+}
+
+#scroll_to_top {
+	display: block;
+	display: none;
+	z-index: 999; 
+	position: fixed;
+	width: 100px;
+	line-height: 28px;
+	height: 28px;
+	padding: 2px;
+	font-size: 11px;
+	text-align: center;
+}
+
+#scroll_to_top a {
+	color: #999;
+	border-bottom:none;
+}

@@ -1,0 +1,62 @@
+/*------------------------------------------------------------------------
+# "Hot Film Tape" Joomla module
+# Copyright (C) 2012 HotJoomlaTemplates.com. All Rights Reserved.
+# License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+# Author: HotJoomlaTemplates.com
+# Website: http://www.hotjoomlatemplates.com
+-------------------------------------------------------------------------*/
+
+.list_carousel {
+	margin: 0 0 0 60px;
+}
+
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+
+.list_carousel li {
+	display: block;
+	float: left;
+	position: relative;
+}
+
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+.pager {
+	display:inline-block;
+	text-align: center;
+}
+
+.pager a {
+	margin: 0 5px;
+	padding: 5px 20px;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	text-decoration: none;
+}
+
+.pager a:hover {
+	background: #89051c;
+}
+
+.pager a.selected {
+	text-decoration: underline;
+}
+
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}

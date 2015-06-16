@@ -1,0 +1,195 @@
+﻿/*------------------------------------------------------------------------
+# "Hot Wellness" Joomla template - December, 2010
+# Copyright (C) 2010 ArhiNet d.o.o. All Rights Reserved.
+# License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+# Author: HotJoomlaTemplates.com
+# Website: http://www.hotjoomlatemplates.com
+-------------------------------------------------------------------------*/
+
+ul.hjt-megamenu-menubar {
+	white-space:nowrap;
+	list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+	height:43px;
+	margin:0;
+	padding:0;
+	z-index:999;
+	position:relative;
+	display:none;
+}
+
+.hjt-megamenu-menubar-item {
+	font-size:16px;
+	font-weight:bold;  
+	display:list-item;
+	float:left;    
+	list-style-position: outside;
+    margin:0 3px;
+	padding:0 10px;
+	
+	height:43px;
+	z-index:999;
+	text-align: center;
+}
+
+.hjt-megamenu-menubar-item-normal {
+	 z-index:999;
+}
+
+.hjt-megamenu-menubar-item-normal a {
+	z-index:999;
+	display:block;
+}
+
+.hjt-megamenu-menubar-item-hover {
+	background: transparent url(../images/cloud.png) no-repeat;
+}
+
+.hjt-megamenu-menubar-item-hover-current,
+ul.menumega > li#current, ul.menumega > li.active {
+	background: transparent url(../images/cloud.png) no-repeat;
+}
+
+.hjt-megamenu-menubar-item-hover a,
+.hjt-megamenu-menubar-item-hover-current a {
+}
+
+.hjt-megamenu-manubar-droparrow {
+	 
+	background-image:url(../images/hjt-megamenu-dropdown_arrow.png);
+	background-position:center center;  
+	background-repeat:no-repeat;  
+	margin: 0 0 0 15px; 
+}
+
+.hjt-megamenu-menubar-item a {
+	margin:0 0 0 0; 
+	
+	text-decoration:none; 
+	display:block;
+    vertical-align:text-bottom;     
+	padding: 22px 0 0 0;
+}
+
+.hjt-megamenu-dropdown-panel-list a {
+	padding: 5px 0 8px 0;
+}
+
+.hjt-megamenu-menubar-item a:link,		/* 1st lvl top menu text - passive */
+.hjt-megamenu-menubar-item a:visited {
+	font-family:"VAG Rounded Std Light", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+.hjt-megamenu-menubar-item a:hover { /* 1st lvl top menu text - hover */
+	font-family:"VAG Rounded Std Light", Arial, Helvetica, sans-serif;
+}
+
+.hjt-megamenu-dropdown-panel-content a:link,		/* 3rd lvl top menu text - passive */
+.hjt-megamenu-dropdown-panel-content a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-transform:none;
+	font-size:11px;
+}
+
+.hjt-megamenu-dropdown-panel {
+	position:absolute; 
+	display:none;  
+	z-index:10000; 
+	padding:0;
+	margin-top:2px;
+	text-align: left;
+}
+
+.hjt-megamenu-dropdown-panel table {
+	margin:0;
+}
+
+.hjt-megamenu-dropdown-panel-list { /* menu module text */
+	margin:5px 0; 
+	padding:0 0 0 10px;
+	font-weight:normal;
+	list-style:none;
+}
+
+.hjt-megamenu-dropdown-panel-list div {
+	width:150px;		/* drop down column width */
+	white-space:normal;
+	height:110%;
+	font-size:11px;
+}
+
+.hjt-megamenu-dropdown-panel-list li {
+	/* white-space:nowrap; */
+	white-space:normal;
+	background:url(../images/hjt-megamenu-list-bullet.png) right no-repeat;
+	margin-right:20px;
+	width:130px;
+}
+
+.hjt-megamenu-contextcolumn {
+	width:160px;	/* drop down column width */
+}
+
+
+.hjt-megamenu-dropdown-panel-list-title {
+	/* 2nd level text */
+}
+
+a.hjt-megamenu-dropdown-panel-list-title:link,
+a.hjt-megamenu-dropdown-panel-list-title:visited {
+	/* 2nd level text */
+	font-family:"VAG Rounded Std Light", Arial, Helvetica, sans-serif;
+	font-size:16px; 	
+	font-weight:normal;
+	display:block;
+	padding:10px 0 0 10px;
+	text-transform:none;
+}
+
+.hjt-megamenu-dropdown-panel-list-title span:hover,
+.hjt-megamenu-dropdown-panel-list a span:hover {
+	/* 2nd level hover text */
+}
+
+.hjt-megamenu-dropdown-panel-content {
+	font-size:12px; 
+	vertical-align:top;
+}
+
+.hjt-megamenu-dropdown-panel-content:last {
+	background-image:none;
+}
+
+.hjt-megamenu-dropdown-panel-bottom	{ /* bottom edge of the drop-down */
+	height:20px;
+}
+.hjt-megamenu-dropdown-panel-left { /* left edge of the drop-down */
+	width:20px;
+}
+
+.hjt-megamenu-dropdown-panel-right { /* right edge of the drop-down */
+	width:20px;
+}
+
+.hjt-megamenu-dropdown-panel-bottomleft {
+	width:20px; 
+	height:20px;
+	-moz-border-radius:0 0 0 10px;
+	-webkit-border-radius:0 0 0 10px;
+	border-radius:0 0 0 10px;
+}
+
+.hjt-megamenu-dropdown-panel-bottomright {
+	width:20px; 
+	height:20px; 
+	-moz-border-radius:0 0 10px 0;
+	-webkit-border-radius:0 0 10px 0;
+	border-radius:0 0 10px 0;
+}
+
+.hjt-megamenu-sidecolumn { /*col and also div inside od side TD's*/
+	width:20px;
+}
